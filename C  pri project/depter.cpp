@@ -1,16 +1,9 @@
+//温度转换程序
 #include <iostream>
 #include <stdio.h>
-//温度转换程序
 using namespace std;
-int tempers(double t)
-{
 
-    double kelvin, celslus;
-    celslus = 1.8 * t + 32.00;
-    kelvin = celslus + 273.16;
-    printf("%.2lf Fis %.2lf C and %.2lf K", t, celslus, kelvin);
-    return 0;
-}
+int tempers(double t);
 int main()
 {
     double t;
@@ -20,4 +13,13 @@ int main()
     tempers(t);
 
     return 0;
+}
+int tempers(double t)
+{
+
+    double kelvin, celslus;
+    celslus = 1.8 * t + 32.00;
+    kelvin = celslus + 273.16;
+    printf("%.2lf Fis %.2lf C and %.2lf K", t, celslus, kelvin);
+    return 0
 }
