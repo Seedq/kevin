@@ -15,5 +15,5 @@
 **2.视频**
 
 * **[ Crash Course Computer Science](https://www.bilibili.com/video/av21376839/index_14.html?t=40#page=1)**
-* **[computr science 50](https://www.bilibili.com/video/av9518900?from=search&seid=297859113235608567)**
+* **[computr science 50](https://www.bilibili.com/video/av9518900?from=search&seid=297859113235608567)** 
 
