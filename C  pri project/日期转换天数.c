@@ -124,3 +124,4 @@ char *stolower(char *str) //将字符串全部小写化，并不修改参数值�
     }
     return str;
 }
+//I love wuyou.
