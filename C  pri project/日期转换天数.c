@@ -80,33 +80,7 @@ void killline(void)
     while ((ch = getchar()) != '\n')
         continue;
 }
-/*void show()
-{
-	char montemp[20];
-	int daytemp;
-	int yeartemp;
-	puts("Hello It is program for show the date number!");
-	puts("请输入指定日期的年份：");
-	while (scanf_s("%d", &yeartemp) != 1 || daytemp > 2000 || daytemp <= 0)
-	{
-		puts("输入错误，重新输入");
-		killline();
-	}
-	puts("请输入指定日期的月份：");
-	while (gets_s(montemp, 20) == NULL)
-	{
-		puts("输入有误，重新输入");
-		killline();
-	}
-	puts("请输入指定日期的日号：");
-	while (scanf_s("%d", &daytemp) != 1 ||daytemp >31)
-	{
-		puts("输入有误,请重新输入：");
-		killline();
-	}
 
-
-}*/
 int fmon(char *mon)
 {
     char t[12][20] = {
