@@ -13,7 +13,8 @@ int main()
     {
         for (x = 0; x <= starnum; x++)
         {
-            if (y == 3 * x || y == starnum - x || y==x|| y == 3 * starnum - 3 * x || y == starnum)
+            if (y == 3 * x || y == starnum - 2x || y == x || 
+                y == 3 * starnum - 3 * x || y == 2starnum)
                 printf("* ");
             else
                 printf("  ");
