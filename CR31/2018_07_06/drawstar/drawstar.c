@@ -1,10 +1,10 @@
-/*输出五角星，
+﻿/*输出五角星，
  生成图案底部长度等于边长
  ，所以不算正五角星
  */
 #include <stdio.h>
 #include <stdlib.h>
-#define starnum 20
+#define starnum 12
 
 int main()
 {
@@ -13,7 +13,7 @@ int main()
     {
         for (x = 0; x <= starnum; x++)
         {
-            if (y == 2 * x || y == starnum - x || y == (3 * x) || y == 3 * starnum - 3 * x || y == starnum)
+            if (y == 3 * x || y == starnum - x || y==x|| y == 3 * starnum - 3 * x || y == starnum)
                 printf("* ");
             else
                 printf("  ");
