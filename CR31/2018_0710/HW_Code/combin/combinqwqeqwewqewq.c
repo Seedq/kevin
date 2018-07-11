@@ -10,6 +10,7 @@ int main()
     int n = 3;
     int nCount = 0;
     printf("共有%d种组合",combin(10,3));
+    scanf("%d",&n);
 }
 int combin(int dad,int son )
 {

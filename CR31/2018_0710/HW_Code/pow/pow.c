@@ -5,6 +5,7 @@ double power(double ,int);
 int main()
 {
     printf("%lf\r\n", power(1.5,3));
+system("pause");
     return 0;
 }
 double power(double dblDnum, int nNUM)
